@@ -1,10 +1,14 @@
 import React from 'react'
+import './App.css';
+import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+import { Box } from '@mui/material';
 
 const App = () => {
     return (
-        <div>
-            <h1>hello</h1>
-        </div>
+        <Router>
+            <Box sx={{p:1}}>
+            </Box>
+        </Router>
     )
 }
 
